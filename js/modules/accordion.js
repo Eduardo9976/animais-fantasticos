@@ -4,7 +4,7 @@ export default class Accordion {
     this.activeClass = 'ativo';
   }
 
-  //ativa/remove classe ativo 
+  //ativa/remove classe ativo
   toggleAccordion(item) {
     item.classList.toggle(this.activeClass);
     item.nextElementSibling.classList.toggle(this.activeClass);
