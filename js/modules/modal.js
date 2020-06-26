@@ -5,7 +5,7 @@ export default class Modal {
     this.containerModal = document.querySelector(containerModal);
     //bind this ao callback para fazer referência ao objeto da classe
     this.eventToggleModel = this.eventToggleModel.bind(this); // fazendo referencia tbm
-    this.cliqueForaModal = this.cliqueForaModal.bind(this); //estao fazendo referencia para o this na hora de chamar o evento
+    this.cliqueForaModal = this.cliqueForaModal.bind(this); //referencia ao this do evento
   }
 
   //abre ou fecha o modal
@@ -36,7 +36,7 @@ export default class Modal {
   init() {
     if (this.botaoAbrir && this.botaoFechar && this.containerModal) {
       this.addModalEvents();
-      return this;
     }
+    return this;
   }
 }
