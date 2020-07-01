@@ -27,7 +27,7 @@ export default class MenuMobile {
 
   addMenuevents() {
     this.events.forEach((evento) => {
-      this.menuButton.addEventListener(evento, this.openMenu);
+      this.menuButton.addEventListener(evento, this.openMenu, { passive: false });
     });
   }
 
