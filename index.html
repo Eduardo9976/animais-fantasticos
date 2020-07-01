@@ -33,22 +33,22 @@
       <h1 class="titulo">Animais Fantásticos</h1>
       <ul class="animais-lista" data-tab="menu">
         <li>
-          <img src="img/imagem1.jpg">
+          <img src="./img/imagem1.jpg">
         </li>
         <li>
-          <img src="img/imagem2.jpg">
+          <img src="./img/imagem2.jpg">
         </li>
         <li>
-          <img src="img/imagem3.jpg">
+          <img src="./img/imagem3.jpg">
         </li>
         <li>
-          <img src="img/imagem4.jpg">
+          <img src="./img/imagem4.jpg">
         </li>
         <li>
-          <img src="img/imagem5.jpg">
+          <img src="./img/imagem5.jpg">
         </li>
         <li>
-          <img src="img/imagem6.jpg">
+          <img src="./img/imagem6.jpg">
         </li>
       </ul>
       <div class="animais-descricao" data-tab="content">
@@ -126,6 +126,28 @@
       </dl>
     </section>
 
+    <section class="grid-section galeria" data-anime="scroll">
+      <ul class="custom-controls">
+        <li><img src="./img/slide/foto1-thumb.jpg" alt=""></li>
+        <li><img src="./img/slide/foto2-thumb.jpg" alt=""></li>
+        <li><img src="./img/slide/foto3-thumb.jpg" alt=""></li>
+        <li><img src="./img/slide/foto4-thumb.jpg" alt=""></li>
+        <li><img src="./img/slide/foto5-thumb.jpg" alt=""></li>
+        <li><img src="./img/slide/foto6-thumb.jpg" alt=""></li>
+        
+      </ul>
+      <div class="slide-wrapper">
+        <ul class="slide">
+          <li><img src="./img/slide/foto1.jpg" alt=""></li>
+          <li><img src="./img/slide/foto2.jpg" alt=""></li>
+          <li><img src="./img/slide/foto3.jpg" alt=""></li>
+          <li><img src="./img/slide/foto4.jpg" alt=""></li>
+          <li><img src="./img/slide/foto5.jpg" alt=""></li>
+          <li><img src="./img/slide/foto6.jpg" alt=""></li>
+        </ul>
+      </div>
+    </section>  
+
     <section class="grid-section numeros" data-anime="scroll">
       <h1 class="titulo">Números</h1>
       <div class="numeros-grid">
@@ -135,7 +157,7 @@
     <section class="grid-section contato" data-anime="scroll" id="contato">
       <h1 class="titulo">Contato</h1>
       <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
-        <img src="img/mapa.png">
+        <img src="./img/mapa.png">
       </div>
       <ul class="dados">
         <li>eduardo_2407@me.com</li>
@@ -157,9 +179,9 @@
       <button data-modal="fechar" class="fechar">X</button>
       <form action="">
         <label for="email">Email</label>
-        <input type="text" for="email" id="email">
+        <input type="text" for="email" id="email" autocomplete="email">
         <label for="senha">Senha</label>
-        <input type="password" for="senha" id="senha">
+        <input type="password" for="senha" id="senha" autocomplete="email">
         <button type="submit">Entrar</button>
       </form>
     </div>
